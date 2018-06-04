@@ -1,4 +1,4 @@
-﻿---
+---
 title: 브라우저 지원 문서에 대한 기본 열기 동작 설정(Office Web Apps를 SharePoint 2013과 함께 사용하는 경우)
 TOCTitle: 브라우저 지원 문서에 대한 기본 열기 동작 설정
 ms:assetid: e27e0bc8-5fb5-4bb1-8157-d7c90654175e
@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**적용 대상:**Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
+_**적용 대상:** Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
 
-_**마지막으로 수정된 항목:**2016-12-16_
+_**마지막으로 수정된 항목:** 2016-12-16_
 
 **요약:** SharePoint 사이트 모음 및 문서 라이브러리에서 Office 문서의 기본 열기 동작을 구성하는 방법에 대해 설명합니다.
 
@@ -109,7 +109,7 @@ SharePoint 2013에서 OpenInClient 기능을 설정하려면 다음 절차 중 �
         
             Enable-SPFeature 8A4B8DE2-6FD8-41e9-923C-C7C3C00F8295 -url <SiteCollURL>
         
-        여기서 *\<SiteCollURL\>*은 사이트 모음의 URL입니다.
+        여기서 *\<SiteCollURL\>* 은 사이트 모음의 URL입니다.
     
       - 모든 사이트 모음에 대해 OpenInClient 기능을 사용하도록 설정(클라이언트 응용 프로그램에서 문서 열기)하려면 다음 명령을 입력합니다.
         
@@ -119,7 +119,7 @@ SharePoint 2013에서 OpenInClient 기능을 설정하려면 다음 절차 중 �
         
             Disable-SPFeature 8A4B8DE2-6FD8-41e9-923C-C7C3C00F8295 -url <SiteCollURL>
         
-        여기서 *\<SiteCollURL\>*은 사이트 모음의 URL입니다.
+        여기서 *\<SiteCollURL\>* 은 사이트 모음의 URL입니다.
     
       - 모든 사이트 모음에 대해 OpenInClient 기능을 사용하지 않도록 설정(브라우저에서 문서 열기)하려면 다음 명령을 입력합니다.
         
@@ -187,9 +187,9 @@ SharePoint 2013에서 OpenInClient 기능을 설정하려면 다음 절차 중 �
     
     여기서 각 부분이 나타내는 의미는 다음과 같습니다.
     
-      - *\<SiteCollURL\>*은 문서 라이브러리가 있는 사이트 모음의 URL입니다.
+      - *\<SiteCollURL\>* 은 문서 라이브러리가 있는 사이트 모음의 URL입니다.
     
-      - *\<DefaultItemOpenSetting\>*은 기본 열기 동작을 지정하는 **DefaultItemOpen** 열거형 값입니다. 연결된 클라이언트 응용 프로그램(사용 가능한 경우)에서 문서를 열려면 **PreferClient**를 사용하고, 브라우저에서 문서를 열려면 **Browser**를 사용합니다.
+      - *\<DefaultItemOpenSetting\>* 은 기본 열기 동작을 지정하는 **DefaultItemOpen** 열거형 값입니다. 연결된 클라이언트 응용 프로그램(사용 가능한 경우)에서 문서를 열려면 **PreferClient**를 사용하고, 브라우저에서 문서를 열려면 **Browser**를 사용합니다.
 
 ## 참고 항목
 
